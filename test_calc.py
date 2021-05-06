@@ -9,3 +9,4 @@ class TestClac:
     def test_division(self):
         assert 3 == Calc.division(3, 1)
         assert 2 == Calc.division(8, 4)
+        assert 5 == Calc.division(25, 5)
