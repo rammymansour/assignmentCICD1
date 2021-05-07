@@ -5,6 +5,7 @@ class TestClac:
     def test_multiplication(self):
         assert 15 == Calc.multiplication(3, 5)
         assert 25 == Calc.multiplication(5, 5)
+        assert 30 == Calc.multiplication(5, 6)
 
     def test_division(self):
         assert 3 == Calc.division(3, 1)
